@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>gallerie</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallerie.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+</head>
+<body>
+<div class="side-navbar">
+    <div class="side-header">
+        <img src="img/raissa.jpg" alt="Ma photo" class="img1" />
+        <h4 style="font-size: 20px"><b>RAISSA SPILOTA</b></h4>
+    </div>
+    <ul>
+        <li ><a href="index.html"><i class="fa fa-home"></i> Accueil</a></li>
+        <li><a href="amis.html"><i class="fa fa-users"></i> Mes ami(e)s</a></li>
+        <li><a href="famille.html"><i class="fa fa-heart"></i> Ma famille</a></li>
+        <li><a href="blog.html"><i class="fa fa-internet-explorer"></i> Mon blog</a></li>
+        <li><a class="active" href="gallerie.html"><i class="fa fa-photo"></i> Gallerie</a></li>
+        <li><a href="moi.html"><i class="fa fa-user"></i> A-propos de moi</a></li>
+        <li><a href="contact.html"><i class="fa fa-contao"></i> Contact</a></li>
+    </ul>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+    </div>
+</div>
+<div class="contenu">
+    <div class="corps">
+        <h1>Gallerie d'images : </h1>
+        <hr/>
+        <div class="imgmod" id="imgmod">
+            <img src="img/me2.jpg" alt="Image 1" />
+            <img src="img/raissa_l.jpg" alt="Image 2" />
+            <img src="img/php_background.jpg" alt="Image 3" />
+            <img src="img/raissa.jpg" alt="Image 4" />
+            <img src="img/me2.jpg" alt="Image 5" />
+            <img src="img/raissa_l.jpg" alt="Image 6" />
+            <img src="img/php_background.jpg" alt="Image 7" />
+            <img src="img/raissa.jpg" alt="Image 8" />
+            <img src="img/me2.jpg" alt="Image 10" />
+            <img src="img/raissa_l.jpg" alt="Image 20" />
+            <img src="img/php_background.jpg" alt="Image 30" />
+            <img src="img/raissa.jpg" alt="Image 40" />
+            <img src="img/me2.jpg" alt="Image 50" />
+            <img src="img/raissa_l.jpg" alt="Image 60" />
+            <img src="img/php_background.jpg" alt="Image 70" />
+            <img src="img/raissa.jpg" alt="Image 80" />
+        </div>
+    </div>
+    <div class="espace"></div>
+    <footer>
+        &copy; <span id="annee"></span> Copyright <strong>Spi - Rai</strong> | Tous droit r&eacute;serv&eacute;s
+    </footer>
+</div>
+<div id="myModal" class="modal" style="display: none;">
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">×</span>
+    <img class="modal-content" src="img/me2.jpg" id="img01">
+    <div id="caption">Capition</div>
+    <div class="fleche">
+        <i id="prec" class="fa fa-caret-left"></i>
+        <i id="suiv" class="fa fa-caret-right"></i>
+    </div>
+</div>
+<script src="js/js.js"></script>
+<script src="js/gallerie.js"></script>
+<script>
+    document.getElementById('annee').innerHTML = String( new Date().getFullYear());
+</script>
+</body>
+</html>

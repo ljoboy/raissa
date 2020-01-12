@@ -1,0 +1,245 @@
+html, body{
+    background-color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.side-navbar{
+    z-index: 3;
+    width: 240px;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+    position: fixed;
+    overflow-x: scroll;
+}
+
+.side-header{
+    padding: 20px;
+}
+
+.contenu{
+    padding-left: 240px;
+}
+
+.img1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover{
+	background-color: #e1e1e1;
+	cursor: pointer;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.active{
+    color: palevioletred;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+}
+
+.ligne{
+    padding: 20px;
+    color: white;
+}
+
+.ligne::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-3{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ligne a{
+    color: white;
+}
+
+.ligne .col-3{
+    background-color: #616161;
+}
+
+.ligne .col-3:hover{
+    cursor: pointer;
+    background-color: darkseagreen;
+}
+
+hr{
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin: 20px 0;
+}
+
+.gp{
+    padding: 20px;
+}
+
+.gp input{
+    border: 1px solid #ccc;
+    width: 98%;
+    padding: 10px 8px;
+    display: block;
+}
+
+.gp button{
+    background-color: black;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;=
+}
+
+.gp button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.corps{
+    padding: 20px;
+}
+
+.boite{
+    background-color: #eeeeee;
+    float: left;
+    width: 30%;
+    text-align: center;
+    border: solid 1px #cccccc;
+    margin: 1.5%;
+    opacity: 0.6;
+    transition: all 1s;
+}
+
+.boite .entete{
+    padding: 30px;
+    background-color: #000000;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.boite p{
+    text-align: justify;
+    border-top: solid 1px #cccccc;
+    margin: 0;
+    padding: 10px;
+}
+
+.boite:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+}
+
+.boite .pieds{
+    border-top: solid 1px #cccccc;
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+.boite img{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.boite .pieds button {
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #009688;
+    transition: all ease-in 0.5s;
+}
+
+.boite .pieds button:hover{
+    background-color: #009688;
+    color: white;
+}
+
+.boite .b{
+    font-weight: bolder;
+    border-top: none;
+    text-transform: uppercase;
+}
+
+.img_moi{
+    width: 47.5%;
+    padding: 0 1%;
+    border-radius: 8%;
+    cursor: hand;
+}
+
+.espace{
+    margin-bottom: 100px;
+}
+
+.corps h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.social{
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+}
+
+.social a{
+    padding: 10px;
+    font-size: larger;
+}
+
+.social a:hover{
+    background-color: #e1e1e1;
+    color: aqua;
+    cursor: pointer;
+}
+
+.d{
+    overflow-y: auto;
+    height: 200px;
+}

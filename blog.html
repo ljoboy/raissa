@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+</head>
+<body>
+<div class="side-navbar">
+    <div class="side-header">
+        <img src="img/raissa.jpg" alt="Ma photo" class="img1" />
+        <h4 style="font-size: 20px"><b>RAISSA SPILOTA</b></h4>
+    </div>
+    <ul>
+        <li ><a href="index.html"><i class="fa fa-home"></i> Accueil</a></li>
+        <li><a href="amis.html"><i class="fa fa-users"></i> Mes ami(e)s</a></li>
+        <li><a href="famille.html"><i class="fa fa-heart"></i> Ma famille</a></li>
+        <li><a class="active" href="blog.html"><i class="fa fa-internet-explorer"></i> Mon blog</a></li>
+        <li><a href="gallerie.html"><i class="fa fa-photo"></i> Gallerie</a></li>
+        <li><a href="moi.html"><i class="fa fa-user"></i> A-propos de moi</a></li>
+        <li><a href="contact.html"><i class="fa fa-contao"></i> Contact</a></li>
+    </ul>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+    </div>
+</div>
+<div class="contenu">
+    <div class="corps">
+        <h1 style="text-align: center">Mon blog :</h1>
+        <hr>
+    </div>
+    <footer>
+        &copy; <span id="annee"></span> Copyright <strong>Spi - Rai</strong> | Tous droit r&eacute;serv&eacute;s
+    </footer>
+</div>
+<script src="js/js.js"></script>
+<script>
+    document.getElementById('annee').innerHTML = String( new Date().getFullYear());
+</script>
+</body>
+</html>

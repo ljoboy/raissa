@@ -1,0 +1,1 @@
+document.getElementById('annee').innerHTML = String( new Date().getFullYear());
